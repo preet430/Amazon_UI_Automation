@@ -67,7 +67,7 @@ Stay tuned for more updates! 🛠️
 1. 📦 Install the dependencies:
 ```bash
 pip install -r requirements.txt
-https://github.com/user-attachments/files/19854294/requirements.txt
+https://drive.google.com/file/d/1uBXqR160BjYJadJrzQCTmVCcSN2DGx_S/view?usp=sharing
 ---
 
 ## 🧪 Project Structure
@@ -98,6 +98,8 @@ Amazon_UI_Automation/
 ├── Utilities/
 │   ├── __init__.py
 │   └── BaseClass.py
+
+---
 
 🤝 Contributions
 Suggestions, improvements, and contributions are welcome!
