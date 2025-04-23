@@ -56,7 +56,6 @@ https://drive.google.com/file/d/16H1ngcq3n5Ma4WEu3SlUdNaDC8qBLsxL/view?usp=shari
 🚀 Coming Soon:
 - ⏳ **Explicit waits** implementation
 - 🧯 **Robust exception handling**
-- 📊 **Allure Report Integration**
 
 Stay tuned for more updates! 🛠️
 
@@ -98,6 +97,8 @@ Amazon_UI_Automation/
 ├── Utilities/
 │   ├── __init__.py
 │   └── BaseClass.py
+│
+├── README.md
 
 ---
 
