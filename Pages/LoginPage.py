@@ -45,6 +45,7 @@ class LoginPage(BaseClass) :
     def valid_password(self, valid_psw):
         self.driver.find_element(*LoginPage.password_box).send_keys(valid_psw)
         self.driver.find_element(*LoginPage.continue_btn).click()
+        time.sleep(5)
 
     #In first attempt sign in with valid credentials
     def valid_login(self, valid_mobile, valid_psw):

@@ -18,10 +18,11 @@ class ItemOrder :
         self.driver.implicitly_wait(3)
         self.driver.find_element(*ItemOrder.suggested_item_name).click()
 
-    mobile_ele = (By.XPATH, "//h2[@aria-label='Sponsored Ad - Apple iPhone 15 (128 GB) - Black']//span[contains(text(),'Apple iPhone 15 (128 GB) - Black')]")
+    mobile_ele = (By.XPATH, "//h2[@aria-label='Apple iPhone 15 (128 GB) - Black']//span[contains(text(),'Apple iPhone 15 (128 GB) - Black')]")
     add_cart_btn = (By.XPATH, "//button[@id='a-autoid-3-announce']")
     plus_icon = (By.XPATH, "//span[@class='a-icon a-icon-small-add']")
-    mobile_price = (By.XPATH, "//div[contains(@class,'rush-component s-featured-result-item')]//span[@class='a-price-whole'][normalize-space()='61,390']")
+    mobile_price = (By.XPATH, "//div[@class='s-widget-container s-spacing-small s-widget-container-height-small celwidget slot=MAIN template=SEARCH_RESULTS widgetId=search-results_3']"
+                              "//span[@class='a-price-whole'][normalize-space()='61,390']")
 
     #Add the item into cart
     def add_item_to_cart(self, mob_name, mob_price):

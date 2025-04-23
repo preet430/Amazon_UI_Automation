@@ -57,7 +57,7 @@ class ManageProfile(BaseClass) :
         self.driver.find_element(*ManageProfile.edit_btn).click()
         file_input = self.driver.find_element(*ManageProfile.image_upload)
         file_input.send_keys(image_path)
-        self.driver.implicitly_wait(5)
+        time.sleep(5)
         self.driver.refresh()
 
 
